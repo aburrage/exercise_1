@@ -1,0 +1,19 @@
+What hospitals are models of high-quality care? (Consistently high scores for a variety of procedures.)
+
+HOSPITAL			     AVG_SCORE  STAN_DEV
+VA SAN DIEGO HEALTHCARE SYSTEM		 99.0	  0.0
+KIT CARSON COUNTY MEMORIAL HOSPITAL	 99.0	  0.0
+VA HUDSON VALLEY HEALTHCARE SYSTEM	 99.0	  0.0
+COMMUNITY MEMORIAL HOSPITAL, INC	 99.0	  0.0
+DANA-FARBER CANCER INSTITUTE		 99.0	  0.0
+QUAIL CREEK SURGICAL HOSPITAL		 99.0	  0.0
+EAST ADAMS RURAL HOSPITAL		 99.0	  0.0
+GHS PATEWOOD MEMORIAL HOSPITAL		 99.0	  0.0
+VA LONG BEACH HEALTHCARE SYSTEM		 98.83	 0.373
+HINES VA MEDICAL CENTER			 98.67	 0.471
+
+The first column in the above table shows the average score, from the effective_care table. This represents the average percentage of hospital patrons who receive treatments known to get the best results for certain common, serious medical conditions or surgical procedures. The second column represents the standard deviation of the effective care score for each hospital. I have ranked the average effective care scores from highest to lowest and standard deviation from lowest to highest. 
+
+I chose these measures because if serious conditions and/or procedures have successful treatments then said conditions and procedures should be treated accordingly. With that said, I believe it is a good measure of high-quality care. Granted, this is assuming all patients are equal and should receive the same treatments. 
+
+The above list 10 hospitals representing high-quality care was created by ranking hospitals with the highest average score and smallest standard deviation of those scores. As you can see above, VA San Diego Healthcare System, has the highest average score, 99.0, and standard deviation of zero. These results do not seem correct especially because of the large average and standard deviation of zero. One potential explanation for this could be procedures observed for these hospitals.

@@ -1,0 +1,17 @@
+What states are models of high-quality care?
+
+STATE	AVG_SCORE    STAN_DEV
+DC	  80.68	      29.592
+DE	  79.828      31.174
+RI	  79.656      30.012
+VT	  79.447      30.355
+MD	  79.334      31.99
+CT	  78.392      32.627
+WA	  77.882      31.542
+ID	  77.818      32.106
+AZ	  77.739      31.566
+NE	  77.587      32.608
+
+The approach for determining states representing high-quality care was identical to the approach used for finding hospitals representing high-quality care. The first column in the above table shows the average score, from the effective_care table. This represents the average percentage of hospital patrons who receive treatments known to get the best results for certain common, serious medical conditions or surgical procedures. The second column represents the standard deviation of the effective care score for each hospital. I have ranked the average effective care scores from highest to lowest and standard deviation from lowest to highest. 
+
+The above list of 10 states representing high-quality care was created by ranking hospitals with the highest average score and smallest standard deviation of those scores. As you can see, District of Columbia has the highest average score, 80.68. 
